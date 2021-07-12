@@ -36,6 +36,7 @@ a {
 
     transform: translate(20%, -50%);
     transition: 0.5s ease;
+
     background-color: $white-normal;
   }
 
@@ -89,7 +90,7 @@ h6 {
 }
 
 .mask {
-  background-color: linear-gradiente(225deg, #2dc7ed 0%, #538bf0 100%);
+  background: linear-gradient(225deg, #2dc7ed 0%, #538bf0 100%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -106,7 +107,9 @@ h6 {
 .square {
   display: inline-block;
   margin-top: 64px;
+
   font-size: 24px;
+
   padding: 16px 24px;
 
   position: relative;
@@ -124,17 +127,17 @@ h6 {
     width: 120px;
     height: 120px;
 
-    background-color: linear-gradiente(225deg, #2dc7ed 0%, rgba());
-
     transform: translate(-5%, -22%) rotate(45deg);
+
+    background: linear-gradient(225deg, #2dc7ed 0%, rgba(83, 139, 240, 0) 100%);
 
     border-radius: 4px;
     transition: 0.5s ease;
   }
 
-  a:hover {
+  &:hover {
     &::after {
+      transform: translate(-5%, -22%) rotate(60deg);
     }
-    transform: translate(-5%, -22%) rotate(60deg);
   }
 }
