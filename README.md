@@ -30,7 +30,7 @@ Esta aplicação é um exemplo de portfólio com animações, desenvolvido com S
 ### Prévia vizualização do sistema
 
 <p align="center">
-    <img alt="Portfólio" title="Portfólio" src=".github/Portfolio.gif" />
+    <img alt="Portfólio" title="Portfólio" src=".github/Portfolio-sass.gif" />
 </p>
 
 <br>
